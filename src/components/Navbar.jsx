@@ -26,31 +26,12 @@ const Navbar = () => {
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
-
-                    <div className="collapse navbar-collapse" id="navbarNav">
-
-                        <ul className="navbar-nav ms-auto">
-
-                            <li className="nav-item">
-                                <Link className="nav-link active fw-semibold" to="/">
-                                    Home
-                                </Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link fw-semibold" to="/add">
-                                    Add Donor
-                                </Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link fw-semibold" to="/view">
-                                    View Donors
-                                </Link>
-                            </li>
-
-                        </ul>
-
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link class="nav-link" to="/add">Add Donor</Link>
+                            <Link class="nav-link" to="/view">View All Donor</Link>
+                        </div>
                     </div>
 
                 </div>
