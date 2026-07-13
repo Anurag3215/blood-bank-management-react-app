@@ -1,9 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 
-const AddDonor = () => {
-
-
     const AddDonor = () => {
         const [input, changeInput] = useState(
             {
@@ -38,9 +35,6 @@ const AddDonor = () => {
                 }
             )
         }
-
-    }
-
 
 
     return (
