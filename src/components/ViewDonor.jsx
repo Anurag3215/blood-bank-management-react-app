@@ -99,7 +99,7 @@ const ViewDonor = () => {
                                                 </tr>
 
                                                 <tr>
-                                                    <th>Email</th>
+                                                    <th>Email Id</th>
                                                     <td
                                                         style={{
                                                             wordBreak: "break-word",
